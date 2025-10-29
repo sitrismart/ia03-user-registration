@@ -6,7 +6,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',
-      'https://ia03-user-registration-v8jl.onrender.com',
+      'https://ia03-user-registration-mu.vercel.app',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,

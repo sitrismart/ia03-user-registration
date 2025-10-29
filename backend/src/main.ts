@@ -7,8 +7,8 @@ async function bootstrap() {
     origin: 'http://localhost:5173',
     credentials: true,
   });
-  await app.listen(process.env.PORT || 5000);
-  console.log(`Server running on port ${process.env.PORT || 5000}`);
+  await app.listen(process.env.PORT || 3000);
+  console.log(`Server running on port ${process.env.PORT || 3000}`);
 }
 
 bootstrap().catch((err) => console.error(err));
